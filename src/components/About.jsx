@@ -20,7 +20,7 @@ export const About=()=>{
         else if(medium)
         setpadding("50px")
         else if(large)
-        setpadding("100px")
+        setpadding("80px")
     },[small,medium,large])
 
 

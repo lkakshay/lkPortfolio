@@ -1,8 +1,10 @@
 
-import { Grid,Container,useTheme,useMediaQuery} from "@mui/material"
+import { Grid,Container,useTheme,useMediaQuery, Typography} from "@mui/material"
 import { useState } from "react"
 import { useEffect } from "react"
-
+import logo1 from '../images/logo1.svg'
+import Typewriter from "typewriter-effect";
+import '../styles/Home.css'
 
 
 
@@ -20,7 +22,7 @@ export const Home=()=>{
         else if(medium)
         setpadding("50px")
         else if(large)
-        setpadding("100px")
+        setpadding("80px")
     },[small,medium,large])
 
 
@@ -28,11 +30,26 @@ export const Home=()=>{
 
          <Grid sx={{ border: 1,py:padding
         }} container spacing={3} >
-                <Grid item xs={12} sm={12} md={6} lg={6} >
-                   <Container maxWidth="xs"  sx={{border:1 ,height:'320px'}}></Container>
+                <Grid item xs={12} sm={12} md={6} lg={6}  >
+                   <Container maxWidth="xs"  sx={{height:'320px'}}>
+                       <p className="home-intro">Hi am </p>
+                       <p className="home-name" >AKSHAY LK</p>
+                        <div className="home-typewriter">
+                        <Typewriter
+                        
+                        options={{
+                            strings: ["Web Developer","MERN Developer","React Developer"],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                        />
+                        </div>
+
+
+                   </Container>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} >
-                   <Container maxWidth="xs"  sx={{border:1 ,height:'320px'}}></Container>
+                       <img src={logo1} style={{width:'100%',height:'100%'}} alt="dfd" /> 
                 </Grid>
             </Grid>
 

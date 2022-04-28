@@ -27,16 +27,16 @@ export const Navbar=()=>{
     }
 
     return(
-            <AppBar  position={"sticky"} sx={{background:"transparent",boxShadow: 0}}>
+            <AppBar  position={"sticky"} sx={{background:"#ffffff",boxShadow: 0}}>
                 <Toolbar>
                     <CodeTwoToneIcon fontSize="large" sx={{color:"black"}}/>
                     {isMatch?(<MenuIcon htmlColor="black" sx={{marginLeft:"auto"}}
                     onClick={screenchange}/>
                     ):
                     (
-                        <Tabs value={value} sx={{marginLeft:"auto", marginRight:"5%",BagroundColor:"white"}}>
+                        <Tabs value={value} sx={{marginLeft:"auto", marginRight:"5%",BagroundColor:"white",textDecorationColor:"#9f54b0"}}>
                         {data.map((e,i)=>{
-                            return <Tab label={e} key={i} onClick={()=>{
+                            return <Tab sx={{fontWeight:"500"}} label={e} key={i} onClick={()=>{
                                 handleChange(i)
                             }} />
                         })}

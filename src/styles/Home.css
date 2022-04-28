@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .home-intro{
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:18px;
+    text-align: left;
+    color: #1976d2;
+    margin-top: 50px;
+  }
+
+  .home-name{
+    font-family: sans-serif;
+    font-weight:900;
+    font-size:60px;
+    text-align: left;
+    color: #2878d5;
+    margin-top: 10px;
+
+  }
+  .home-typewriter{
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:40px;
+    text-align: left;
+    color: #1976d2;
+    margin-top: 10px;
+  }
