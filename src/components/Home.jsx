@@ -27,18 +27,20 @@ export const Home=()=>{
 
 
     return(
+            <div className="Home">
 
             <Grid sx={{py:padding
                   }} container spacing={3} >
                 <Grid item xs={12} sm={12} md={6} lg={6}  >
                    <Container  className="home" maxWidth="xs"  sx={{height:'320px'}}>
-                      <p className="home-intro">Hi am </p>
+                      <p className="home-intro">Hi, </p>
+                      <p className="home-intro1"> I am </p>
                        <p className="home-name" >AKSHAY LK</p>
                         <div className="home-typewriter">
                         <Typewriter
                         
                         options={{
-                            strings: ["Web Developer","MERN Developer","React Developer"],
+                            strings: ["Web Developer","Fullstack developer","MERN Developer","React Developer"],
                             autoStart: true,
                             loop: true,
                         }}
@@ -50,6 +52,7 @@ export const Home=()=>{
                        <img src={logo1} style={{width:'100%',height:'100%'}} alt="dfd" /> 
                 </Grid>
             </Grid>      
+            </div>
 
     )
 }

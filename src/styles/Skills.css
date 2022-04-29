@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.skills-heading{
+    margin: auto;
+    color: #2878d5;
+    text-align:center;
+}
+.skill-image-div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    
+}
+.skill-image-div>img {
+    height: 100%;
+    width: 100%;
+
+}
+.skill-heading{
+    font-family: sans-serif;
+    margin: auto;
+    color: #2878d5;
+    text-align:center;
+    font-size: 32px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}

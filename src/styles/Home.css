@@ -13,10 +13,19 @@
   .home-intro{
     font-family: sans-serif;
     font-weight:800;
-    font-size:22px;
+    font-size:28px;
     text-align: left;
     color: #1976d2;
     margin-top: 50px;
+  }
+
+  .home-intro1{
+    font-family: sans-serif;
+    font-weight:800;
+    font-size:24px;
+    text-align: left;
+    color: #1976d2;
+    margin-top: 10px;
   }
 
   .home-name{
