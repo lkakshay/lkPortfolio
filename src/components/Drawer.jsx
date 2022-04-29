@@ -14,7 +14,7 @@ export const DrawerComponent=({setopenDrawer,openDrawer})=>{
                    return ( <List key={i}>
                     <ListItemButton>
                         <ListItemIcon>
-                            <ListItemText sx={{color:"black"}}>
+                            <ListItemText sx={{color:"#2878d5"}}>
                                 {e}
                             </ListItemText>
                         </ListItemIcon>

@@ -29,8 +29,8 @@ export const Navbar=()=>{
     return(
             <AppBar  position={"sticky"} sx={{background:"#ffffff",boxShadow: 0}}>
                 <Toolbar>
-                    <CodeTwoToneIcon fontSize="large" sx={{color:"black"}}/>
-                    {isMatch?(<MenuIcon htmlColor="black" sx={{marginLeft:"auto"}}
+                    <CodeTwoToneIcon fontSize="large" sx={{color:"#2878d5"}}/>
+                    {isMatch?(<MenuIcon htmlColor="#2878d5" sx={{marginLeft:"auto"}}
                     onClick={screenchange}/>
                     ):
                     (

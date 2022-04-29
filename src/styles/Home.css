@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+  .home{
+    border: .1px solid #2878d5;
+    border-radius: 8px;
+    
+  }
   .home-intro{
     font-family: sans-serif;
     font-weight:800;
-    font-size:18px;
+    font-size:22px;
     text-align: left;
     color: #1976d2;
     margin-top: 50px;
@@ -20,6 +26,7 @@
     text-align: left;
     color: #2878d5;
     margin-top: 10px;
+
 
   }
   .home-typewriter{

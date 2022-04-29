@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+
+.about-first-grid{
+
+    border: .1px solid #2878d5;
+    padding: 5px;
+    background-color: #2878d5;
+
+}
+.about-second-grid{
+    border: .1px solid #2878d5;
+    padding: 5px;
+    background-color: #2878d5;
+    
+}
