@@ -50,30 +50,30 @@ export const Skills=()=>{
             <div className="Skills">
                 <Grid sx={{ py:padding
             }} container  >
-                <h1 className="skills-heading">SKILLS</h1>
-                <Grid container sx={{pt:"40px"}}>
-        
-        {
-           data.map((e)=>{
-               return(
-                   <Grid item xs={12} sm={6} md={4} lg={4}  sx={{p:"20px"}} > 
-                       <div className="skill-div" >
-                            <p className="skill-heading">{e.name}</p>
-                            <div className="skill-image-div">
-                               <img src={e.comp} alt="skills" />
-                            </div>
-                       
-                       
-                       </div>
-                   </Grid>
+                <div className="skills-div">
+                    <h1 className="skills-heading">SKILLS</h1>
+                    <Grid container>
+            
+            {
+            data.map((e)=>{
+                return(
+                    <Grid item xs={12} sm={6} md={4} lg={4}  > 
+                        <div className="skill-div" >  
+                                <div className="skill-image-div">
+                                <img src={e.comp} alt="skills" />
+                                </div>
+                                <p className="skill-heading">{e.name}</p>
+                        
+                        
+                        </div>
+                    </Grid>
 
 
-               )
-           })
-        }
-
-                </Grid>
-               
+                )
+            })
+            }
+                    </Grid>
+                </div>
             </Grid>
             </div>
     )

@@ -8,7 +8,7 @@ import logo2 from '../images/logo2.svg'
 
 
 
-export const About=()=>{
+export const Contact=()=>{
 
     const[padding,setpadding]=useState("")
     
@@ -30,14 +30,14 @@ export const About=()=>{
             <div className="About">
                 <Grid sx={{ py:padding
             }} container  >
-                <Grid className="about-grid" item xs={12} sm={12} md={6} lg={6} >
+                <Grid item xs={12} sm={12} md={6} lg={6} >
                    <Box className="about-first-grid"  component={"div"} sx={{height:'400px', maxWidth:"600px",marginLeft:"auto"}}>
                        <Container >
                            <img src={logo2} alt="" />
                        </Container>
                    </Box>
                 </Grid>
-                <Grid  className="about-grid" item xs={12} sm={12} md={6} lg={6}  >
+                <Grid   item xs={12} sm={12} md={6} lg={6}  >
                 <Box className="about-second-grid"component={"div"} sx={{height:'400px', maxWidth:"600px",marginRight:"auto"}}>
                     <div>
                     <p className="about-heading">Hi, I’m Matt. Nice to meet you.</p>

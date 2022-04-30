@@ -27,25 +27,29 @@ export const Home=()=>{
 
 
     return(
-            <div className="Home">
+            <div className="Home" >
 
             <Grid sx={{py:padding
                   }} container spacing={3} >
                 <Grid item xs={12} sm={12} md={6} lg={6}  >
-                   <Container  className="home" maxWidth="xs"  sx={{height:'320px'}}>
-                      <p className="home-intro">Hi, </p>
-                      <p className="home-intro1"> I am </p>
+                   <Container  className="home" maxWidth="xs" sx={{height:'320px'}}>
+                    <div className="home1">
+                        <div className="home2">
+                        <p className="home-intro">Hi,<span> </span> am </p>
                        <p className="home-name" >AKSHAY LK</p>
                         <div className="home-typewriter">
                         <Typewriter
                         
                         options={{
-                            strings: ["Web Developer","Fullstack developer","MERN Developer","React Developer"],
+                            strings: ["Fullstack web developer","MERN Developer","React Developer"],
                             autoStart: true,
                             loop: true,
                         }}
                         />
                         </div>
+                        </div>
+                    </div>
+
                    </Container>
                 </Grid>
                 <Grid item xs={12} sm={12} md={6} lg={6} >

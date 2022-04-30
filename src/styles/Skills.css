@@ -3,16 +3,23 @@
     padding: 0;
     box-sizing: border-box;  
 }
+.skills-div{
+    border: 1px solid #2878d5;
+    margin: auto;
+    padding: 40px 0px 80px 0px;
+}
 
 .skills-heading{
+    font-size: 48px;
     margin: auto;
     color: #2878d5;
     text-align:center;
 }
 .skill-image-div {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 80px;
     margin: auto;
+    margin-top: 60px;
     
 }
 .skill-image-div>img {
@@ -27,5 +34,6 @@
     text-align:center;
     font-size: 32px;
     font-weight: 500px;
-    margin-bottom: 10px;
+    
 }
+
