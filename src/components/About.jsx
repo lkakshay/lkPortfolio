@@ -40,13 +40,10 @@ export const About=()=>{
                 <Grid  className="about-grid" item xs={12} sm={12} md={6} lg={6}  >
                 <Box className="about-second-grid"component={"div"} sx={{height:'400px', maxWidth:"600px",marginRight:"auto"}}>
                     <div>
-                    <p className="about-heading">Hi, I’m Matt. Nice to meet you.</p>
+                    <p className="about-heading">Hi, I’m Akshay. Nice to meet you.</p>
                     <p className="about-paragraph">
-                    Since beginning my journey as a freelance designer nearly 10 years ago, 
-                    I've done remote work for agencies, consulted for startups, and collaborated 
-                    with talented people to create digital products for both business and consumer use.
-                    I'm quietly confident, naturally curious, 
-                    and perpetually working on improving my chops one design problem at a time.
+                    I have always been a someone who is curious about how modern applications work and how they make our day to day activities much easier. The fast moving technology has brought two very distant points in the planet very close together. As an aspiring software developer I wish to engage in this transition actively by contributing to the technical society in their newer and more advanced ventures.I am highly skilled in 
+                    React.js, Node.js, Express.js, MongoDB, javascript, HTML and CSS.
                     </p>  
                     </div>
                 </Box>
