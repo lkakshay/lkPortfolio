@@ -1,9 +1,13 @@
 
-import { Grid,Container,useTheme,useMediaQuery, Box} from "@mui/material"
+import { Grid,Container,useTheme,useMediaQuery} from "@mui/material"
 import { useState } from "react"
 import { useEffect } from "react"
-import '../styles/About.css'
-import logo2 from '../images/logo2.svg'
+import '../styles/Contact.css'
+import git from '../images/git.svg'
+import linkedin from '../images/linkedin.svg'
+import gmail from '../images/gmail.svg'
+import phone from '../images/phone.svg'
+
 
 
 
@@ -30,27 +34,35 @@ export const Contact=()=>{
             <div className="About">
                 <Grid sx={{ py:padding
             }} container  >
-                <Grid item xs={12} sm={12} md={6} lg={6} >
-                   <Box className="about-first-grid"  component={"div"} sx={{height:'400px', maxWidth:"600px",marginLeft:"auto"}}>
-                       <Container >
-                           <img src={logo2} alt="" />
-                       </Container>
-                   </Box>
-                </Grid>
-                <Grid   item xs={12} sm={12} md={6} lg={6}  >
-                <Box className="about-second-grid"component={"div"} sx={{height:'400px', maxWidth:"600px",marginRight:"auto"}}>
-                    <div>
-                    <p className="about-heading">Hi, I’m Matt. Nice to meet you.</p>
-                    <p className="about-paragraph">
-                    Since beginning my journey as a freelance designer nearly 10 years ago, 
-                    I've done remote work for agencies, consulted for startups, and collaborated 
-                    with talented people to create digital products for both business and consumer use.
-                    I'm quietly confident, naturally curious, 
-                    and perpetually working on improving my chops one design problem at a time.
-                    </p>  
+                <Container className="contact-container" maxWidth="3000px" sx={{height:"320px"}}>
+                    <h6>GET IN TOUCH</h6>
+                    <h3>CONTACT ME</h3>
+                    <div className="icon_container">
+                        <a href="https://www.linkedin.com/in/akshay-lk-a62080230/">
+                            <div> 
+                                <img src={linkedin} alt="Contact Icons" /> 
+                                </div>
+                        </a>
+                        <a href="https://github.com/lkakshay">
+                            <div> 
+                                <img src={git} alt="Contact Icons" />
+                             </div>
+                             
+                        </a>
+                        <a href="mailto:connectme.lkakshay@gmail.com">
+                            <div>
+                                <img src={gmail} alt="Contact Icons" /> 
+                            </div>
+                        </a>
+                        <a href="tel:+916282676712">
+                            <div>
+                                 <img src={phone} alt="Contact Icons" />
+                                  </div>
+                        </a>
                     </div>
-                </Box>
-                </Grid>
+
+                </Container>
+                
             </Grid>
             </div>
     )
