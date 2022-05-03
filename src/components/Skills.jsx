@@ -1,5 +1,5 @@
 
-import { Grid,Container,useTheme,useMediaQuery, Box} from "@mui/material"
+import { Grid,useTheme,useMediaQuery} from "@mui/material"
 import { useState } from "react"
 import { useEffect } from "react"
 import '../styles/Skills.css'
@@ -47,7 +47,7 @@ export const Skills=()=>{
 
 
     return(
-            <div className="Skills">
+            <div id="Skills">
                 <Grid sx={{ py:padding
             }} container  >
                 <div className="skills-div">
@@ -55,9 +55,9 @@ export const Skills=()=>{
                     <Grid container>
             
             {
-            data.map((e)=>{
+            data.map((e,i)=>{
                 return(
-                    <Grid item xs={12} sm={6} md={4} lg={4}  > 
+                    <Grid item xs={12} sm={6} md={4} lg={4} key={i}  > 
                         <div className="skill-div" >  
                                 <div className="skill-image-div">
                                 <img src={e.comp} alt="skills" />
@@ -74,6 +74,7 @@ export const Skills=()=>{
             }
                     </Grid>
                 </div>
+                
             </Grid>
             </div>
     )

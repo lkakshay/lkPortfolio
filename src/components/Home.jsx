@@ -27,7 +27,7 @@ export const Home=()=>{
 
 
     return(
-            <div className="Home" >
+            <div id="Home" >
 
             <Grid sx={{py:padding
                   }} container spacing={3} >

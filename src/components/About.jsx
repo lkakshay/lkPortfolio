@@ -27,7 +27,7 @@ export const About=()=>{
 
 
     return(
-            <div className="About">
+            <div id="About">
                 <Grid sx={{ py:padding
             }} container  >
                 <Grid className="about-grid" item xs={12} sm={12} md={6} lg={6} >
@@ -46,7 +46,9 @@ export const About=()=>{
                     React.js, Node.js, Express.js, MongoDB, javascript, HTML and CSS.
                     </p>  
                     </div>
+                    
                 </Box>
+                <button className="resume" ><a href="https://drive.google.com/file/d/1LI2k3DUemhURcbqFs-Pw4kPzBNRriJoR/view?usp=sharing">DOWNLOAD RESUME</a></button>
                 </Grid>
             </Grid>
             </div>

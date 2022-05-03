@@ -1,4 +1,5 @@
 import  React, { useState } from "react";
+import { scroller } from "react-scroll/modules";
 
 import { AppBar,Tab,Toolbar,Tabs,useMediaQuery,useTheme } from "@mui/material"
 
@@ -18,13 +19,25 @@ export const Navbar=()=>{
     const theme=useTheme()
     const isMatch=useMediaQuery(theme.breakpoints.down("sm"))
 
-    const handleChange=(i)=>{
+    const handleChange=(i,e)=>{
         setvalue(i)
+        scrollToSection(e)
     }
 
     const screenchange=()=>{
     setopenDrawer(!openDrawer)
     }
+
+   const  scrollToSection = (e) => {
+        scroller.scrollTo(e, {
+          duration: 600,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      };
+
+
+    
 
     return(
             <AppBar  position={"sticky"} sx={{background:"#ffffff",boxShadow: 0}}>
@@ -37,7 +50,7 @@ export const Navbar=()=>{
                         <Tabs value={value} sx={{marginLeft:"auto", marginRight:"5%",BagroundColor:"white",textDecorationColor:"#9f54b0"}}>
                         {data.map((e,i)=>{
                             return <Tab sx={{fontWeight:"500"}} label={e} key={i} onClick={()=>{
-                                handleChange(i)
+                                handleChange(i,e)
                             }} />
                         })}
                             

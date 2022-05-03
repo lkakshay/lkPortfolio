@@ -31,8 +31,8 @@ export const Contact=()=>{
 
 
     return(
-            <div className="About">
-                <Grid sx={{ py:padding
+            <div id="Contact">
+                <Grid sx={{ pt:padding
             }} container  >
                 <Container className="contact-container" maxWidth="3000px" sx={{height:"320px"}}>
                     <h6>GET IN TOUCH</h6>
