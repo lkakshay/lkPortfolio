@@ -1,9 +1,24 @@
 import React from "react"
 import { Drawer, ListItemButton, ListItemIcon, ListItemText } from "@mui/material"
 import { List } from "@mui/material"
+import { scroller } from "react-scroll/modules";
+
 
 export const DrawerComponent=({setopenDrawer,openDrawer})=>{
     const data=["Home","About","Skills","Works","Contact"]
+    const  scrollToSection = (e) => {
+        setopenDrawer(false)
+        scroller.scrollTo(e, {
+          duration: 600,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      };
+
+
+    const handleChange=(e)=>{
+        scrollToSection(e)
+    }
     return(
         <React.Fragment>
             <Drawer sx={{width:360}} anchor="bottom" open={openDrawer}
@@ -12,7 +27,9 @@ export const DrawerComponent=({setopenDrawer,openDrawer})=>{
             }}>
                {data.map((e,i)=>{
                    return ( <List key={i}>
-                    <ListItemButton>
+                    <ListItemButton onClick={()=>{
+                        handleChange(e)
+                    }}>
                         <ListItemIcon>
                             <ListItemText sx={{color:"#2878d5"}}>
                                 {e}

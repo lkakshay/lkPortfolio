@@ -44,10 +44,10 @@ export const Work=()=>{
                                </p>
                                <p className="p-stack"> Javascript | HTML | CSS</p>
                                <div className="p-buttons">
-                                   <a href="https://fabindia-clone.vercel.app/">
+                                   <a href="https://fabindia-clone.vercel.app/" target="_blank" rel="noreferrer noopener">
                                    <button>LIVE</button>
                                    </a>
-                                   <a href="https://github.com/lkakshay/fabindia-clone">
+                                   <a href="https://github.com/lkakshay/fabindia-clone" target="_blank" rel="noreferrer noopener">
                                    <button>CODE</button>
                                    </a>
                                </div>
@@ -65,10 +65,10 @@ export const Work=()=>{
                                <p className="p-description"> Web Application to get details about the weather of a place ,Can find the weather of a place by searching , Built using public weather api</p>
                                <p className="p-stack"> Javascript | HTML | CSS</p>
                                <div className="p-buttons">   
-                               <a href="http://weather-app-lkakshay.vercel.app/">
+                               <a href="http://weather-app-lkakshay.vercel.app/" target="_blank" rel="noreferrer noopener">
                                    <button>LIVE</button>
                                    </a>
-                                   <a href="https://github.com/lkakshay/Weather-app">
+                                   <a href="https://github.com/lkakshay/Weather-app" target="_blank" rel="noreferrer noopener">
                                    <button>CODE</button>
                                    </a>
                                </div>

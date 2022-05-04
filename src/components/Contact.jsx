@@ -38,23 +38,23 @@ export const Contact=()=>{
                     <h6>GET IN TOUCH</h6>
                     <h3>CONTACT ME</h3>
                     <div className="icon_container">
-                        <a href="https://www.linkedin.com/in/akshay-lk-a62080230/">
+                        <a href="https://www.linkedin.com/in/akshay-lk-a62080230/" target="_blank" rel="noreferrer noopener" >
                             <div> 
                                 <img src={linkedin} alt="Contact Icons" /> 
                                 </div>
                         </a>
-                        <a href="https://github.com/lkakshay">
+                        <a href="https://github.com/lkakshay" target="_blank" rel="noreferrer noopener">
                             <div> 
                                 <img src={git} alt="Contact Icons" />
                              </div>
                              
                         </a>
-                        <a href="mailto:connectme.lkakshay@gmail.com">
+                        <a href="mailto:connectme.lkakshay@gmail.com" target="_blank" rel="noreferrer noopener" >
                             <div>
                                 <img src={gmail} alt="Contact Icons" /> 
                             </div>
                         </a>
-                        <a href="tel:+916282676712">
+                        <a href="tel:+916282676712" target="_blank" rel="noreferrer noopener">
                             <div>
                                  <img src={phone} alt="Contact Icons" />
                                   </div>

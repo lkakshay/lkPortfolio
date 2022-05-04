@@ -3,7 +3,7 @@ import { Grid,Container,useTheme,useMediaQuery, Box} from "@mui/material"
 import { useState } from "react"
 import { useEffect } from "react"
 import '../styles/About.css'
-import dp from '../images/dp.jpeg'
+import dp from '../images/dp.jpg'
 
 
 
@@ -48,7 +48,7 @@ export const About=()=>{
                     </div>
                     
                 </Box>
-                <button className="resume" ><a href="https://drive.google.com/file/d/1LI2k3DUemhURcbqFs-Pw4kPzBNRriJoR/view?usp=sharing">DOWNLOAD RESUME</a></button>
+                <button className="resume" ><a href="https://drive.google.com/file/d/1LI2k3DUemhURcbqFs-Pw4kPzBNRriJoR/view?usp=sharing" target="_blank" rel="noreferrer noopener">RESUME</a></button>
                 </Grid>
             </Grid>
             </div>
