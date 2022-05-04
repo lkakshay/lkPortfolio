@@ -3,7 +3,7 @@ import { Grid,Container,useTheme,useMediaQuery, Box} from "@mui/material"
 import { useState } from "react"
 import { useEffect } from "react"
 import '../styles/About.css'
-import logo2 from '../images/logo2.svg'
+import dp from '../images/dp.jpeg'
 
 
 
@@ -33,7 +33,7 @@ export const About=()=>{
                 <Grid className="about-grid" item xs={12} sm={12} md={6} lg={6} >
                    <Box className="about-first-grid"  component={"div"} sx={{height:'400px', maxWidth:"600px",marginLeft:"auto"}}>
                        <Container >
-                           <img src={logo2} alt="" />
+                            <img className="dp" src={dp} alt="" />
                        </Container>
                    </Box>
                 </Grid>

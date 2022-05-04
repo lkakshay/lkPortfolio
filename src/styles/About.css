@@ -58,6 +58,12 @@
     font-weight: 500;
 }
 
+.dp{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+
 @media only screen and (max-width: 600px){
     .about-paragraph{
         margin-right: 10px;
