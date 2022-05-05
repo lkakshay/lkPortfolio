@@ -30,9 +30,10 @@ h3{
 }
 
 @media screen and (max-width: 600px) {
-    .icon_container{
-        display: grid;
-        grid-template-columns: repeat(2,100px);
+
+    .icon_container>a>div{
+        width: 60px;
+        height: 100px;
     }
     
 }

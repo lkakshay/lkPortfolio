@@ -33,7 +33,7 @@ export const Work=()=>{
                     <Grid container sx={{px:"10px"}}>
 
                     <Grid item xs={12} sm={12} md={6} lg={6} sx={{p:"10px"}} > 
-                       <Box className="work-container" maxWidth="500px" sx={{height:"480px"}}>
+                       <Box className="work-container" maxWidth="500px" >
                            <div className="work-inner-container">
                                <div className="p-image">
                                    <img src="https://user-images.githubusercontent.com/91669835/166094016-32efa43e-32cb-452e-bd82-1517021deaf5.png" alt="" />
@@ -55,8 +55,8 @@ export const Work=()=>{
                            </div>
                        </Box>
                     </Grid>
-                    <Grid item xs={12} sm={12} md={6} lg={6} sx={{p:"10px"}} > 
-                       <Box className="work-container" maxWidth="500px" sx={{height:"480px"}}>
+                    <Grid item xs={12} sm={12} md={6} lg={6} sx={{pt:"10px"}} > 
+                       <Box className="work-container" maxWidth="500px" >
                            <div className="work-inner-container">
                                <div className="p-image">
                                    <img src="https://user-images.githubusercontent.com/91669835/166094013-ffd663e8-714f-477f-acb0-0f8912e12b3c.png" alt="" />
